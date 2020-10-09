@@ -1,0 +1,19 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+a{
+	text-decoration: none;
+}
+
+header{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #e6d2d1;
+	font-family: 'The name of the Font Family Here';
+  	src: URL('font.ttf') format('truetype');
+}
