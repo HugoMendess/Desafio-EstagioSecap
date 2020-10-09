@@ -63,6 +63,13 @@ main{
 	background-color: #c59e97;
 }
 
+.main-one{
+ 	display: flex;
+ 	justify-content: space-around;
+ 	align-items: center;
+ 	padding: 50px 0px;	
+}
+
 .main-one-logo{
 	display: flex;
 }
@@ -75,3 +82,46 @@ main{
 .main-one-logo{
 	margin-left: 30px;
 }
+
+.main-one-text{
+	width: 38%;
+	color: #fcf7f5;
+	font-size: 23px;
+	font-family: gabriola;
+	text-align: justify-all;
+}
+
+blockquote p{
+	font-weight: bold;
+	font-family: gabriola;
+	text-align: right;
+	margin-right: 70px;
+}
+
+.barra1{
+	background: url('../img/barra.jpg');
+	background-size: contain;
+	height: 90px;
+}
+
+.main-two{
+	background-color: #e6d2d1;
+	margin-top: -5px;
+	padding: 50px 0px;
+}
+
+
+.main-two-text{
+	width: 50%;
+	color: #ba825e;
+	font-size: 20px;
+	font-family: gabriola;
+	text-align: justify-all;
+}
+
+.main-two{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
