@@ -9,11 +9,25 @@ a{
 	text-decoration: none;
 }
 
+body{
+	font-family: 'gabriola';
+  	src: URL('../fonts/gabriola.ttf') format('truetype');
+}
+
 header{
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
 	background-color: #e6d2d1;
-	font-family: 'The name of the Font Family Here';
-  	src: URL('font.ttf') format('truetype');
+}
+
+.header-nav ul{
+	display: flex;
+	justify-content:center;
+	align-items: center;
+}
+.header-nav ul li{
+	font-size: 25px;
+	list-style-type: none;
+	margin-right: 20px;
 }
