@@ -237,7 +237,88 @@ blockquote p{
 .button:hover{
 	background-color: #fff;
 	color: #cc8d0a;
-	font-size: 20px;
-	transition: 0.8s;
+	transition: 0.3s;
 }
 
+@media (max-width: 1440px){
+	.content{
+		width: 60%;
+		margin-right: 30%;
+
+	}
+
+	.barra2{
+	background: url('../img/barra-2.jpg');
+	background-size: cover;
+	width: 100%;
+
+}
+
+}
+
+@media (max-width: 1225px){
+	.barra1{
+	background: url('../img/barra.jpg');
+	background-size: contain;
+	height: 90px;
+	margin-bottom: -8px;
+	}
+}
+
+@media (max-width: 1172px){
+	.barra1{
+	background: url('../img/barra.jpg');
+	background-size: contain;
+	height: 90px;
+	margin-bottom: -15px;
+	}
+}
+
+@media (max-width: 1070px){
+	.barra1{
+	background: url('../img/barra.jpg');
+	background-size: contain;
+	height: 90px;
+	margin-bottom: -20px;
+	}
+
+	.main-three-box #nome{
+	width: 80%;
+	padding: 10px 10px;
+	border-radius: 5px;
+	border: none;
+}
+
+
+.main-three-box #email{
+	width: 80%;
+	padding: 10px 10px;
+	border-radius: 5px;
+	border: none;
+}
+
+.button{
+	width: 60%;
+	font-size: 13px;
+}
+
+.main-three-box h2{
+	font-size: 1.7em;
+}
+}
+
+@media (max-width: 1005px){
+	.barra1{
+	background: url('../img/barra.jpg');
+	background-size: contain;
+	height: 90px;
+	margin-bottom: -25px;
+	}
+}
+
+@media (max-width: 995px){
+	
+	.header-nav ul li{
+		font-size: 17px;
+	}
+}
