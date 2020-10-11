@@ -17,11 +17,11 @@ a{
 
 body{
 	font-family: gabriola;
-
 }
 
 .content{
-	
+	width: 50%;
+	margin-left: 25%;
 }
 
 
@@ -54,8 +54,18 @@ header{
 	font-weight: bold;
 }
 
+.header-nav ul li:hover{
+	background-color: #fff;
+	font-size: 22px;
+	transition: 0.8s;
+}
+
 .header-nav ul li a{
 	color:  #fefafe;
+}
+
+.header-nav ul li a:hover{
+	color: #cd8e0a;
 }
 
 main{
@@ -141,7 +151,7 @@ blockquote p{
 
 .barra2{
 	background: url('../img/barra-2.jpg');
-	background-size: cover;
+	background-size: contain;
 	height: 130px;
 }
 
@@ -171,29 +181,63 @@ blockquote p{
 .main-three-box h2{
 	color: #fff;
 	font-weight: bold;
-	margin-bottom: 40px;
+	margin-bottom: 20px;
+	font-size: 2em;
+	font-family: gabriola;
 
 
 }
 
 .main-three-box{
-	margin-bottom: 250px;
+	margin-bottom: 100px;
 	text-align: center;
 }
 
 .main-three-box strong{
 	display: block;
 	text-align: left;
-	margin-left: 20px;
+	margin-left: 30px;
+	margin-top: 8px;
+	color: #ab6d44;
+	font-weight: bold;
+	font-size: 18px;
+	font-family: gabriola;
 
 }
 
 .main-three-box #nome{
 	width: 90%;
+	padding: 10px 10px;
+	border-radius: 5px;
+	border: none;
 }
 
 
 .main-three-box #email{
 	width: 90%;
+	padding: 10px 10px;
+	border-radius: 5px;
+	border: none;
+}
+
+.button{
+	background-color: #cc8d0a;
+	padding: 8px 5px;
+	width: 75%;
+	margin-top: 30px;
+	border: none;
+	border-radius: 5px;
+	color: #fff;
+	font-weight: bold;
+	font-family: gabriola;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+.button:hover{
+	background-color: #fff;
+	color: #cc8d0a;
+	font-size: 20px;
+	transition: 0.8s;
 }
 
