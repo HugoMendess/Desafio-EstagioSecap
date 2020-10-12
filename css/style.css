@@ -31,12 +31,16 @@ header{
 	align-items: center;
 	background-color: #e6d2d1;
 	padding: 8px 0px;
+}
 
-
+#nav-bar{
+	margin-right: 50px;
+	display: none;
 }
 
 .header-logo{
 	margin-left: 18px;
+
 }
 
 .header-nav ul{
@@ -60,6 +64,19 @@ header{
 	transition: 0.8s;
 }
 
+.header-nav ul li a i{
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 5px;
+}
+
+.header-nav ul #cl{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 .header-nav ul li a{
 	color:  #fefafe;
 }
@@ -240,6 +257,8 @@ blockquote p{
 	transition: 0.3s;
 }
 
+/*Media queries* ------------------------------------------------*/
+
 @media (max-width: 1440px){
 	.content{
 		width: 60%;
@@ -307,18 +326,180 @@ blockquote p{
 }
 }
 
-@media (max-width: 1005px){
+@media (max-width: 1100px){
 	.barra1{
 	background: url('../img/barra.jpg');
 	background-size: contain;
 	height: 90px;
 	margin-bottom: -25px;
 	}
+
+	header img{
+		width: 140px;
+	}
+
+	.header-nav ul li{
+		font-size: 14px;
+	}
+
+	.main-one-text{
+		font-size: 18px;
+	}
+
+	.main-two-text{
+		font-size: 18px;
+	}
+
+	.main-three-box h2{
+		font-size: 1.7em;
+	}
+
+	.main-three-box strong{
+	display: block;
+	text-align: left;
+	margin-left: 30px;
+	margin-top: 8px;
+	color: #ab6d44;
+	font-weight: bold;
+	font-size: 15px;
+	font-family: gabriola;
+
+	}
+
+	.main-three-box #nome{
+		width: 80%;
+		padding: 10px 10px;
+		border-radius: 5px;
+		border: none;
+	}
+
+
+	.main-three-box #email{
+		width: 80%;
+		padding: 10px 10px;
+		border-radius: 5px;
+		border: none;
+	}
+
+	.button{
+		width: 50%;
+		font-size: 12px;
+	}
+
+	.main-three-logo-img1{
+		width: 130px;
+	}
+
+	..main-three-logo-img2{
+		width: 160px;
+	}
+
+
 }
 
-@media (max-width: 995px){
+
+@media (max-width: 950px){
 	
 	.header-nav ul li{
-		font-size: 17px;
+		font-size: 12px;
+	}
+
+	.main-one, .main-two, .main-three{
+ 	display: block;
+ 	
+	}
+
+	.main-one-logo, .main-two-logo, .main-three-logo{
+		margin-left: 25%;
+	}
+
+	.main-one-text, .main-two-text{
+		margin-left: 25%;
+		width: 60%;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		font-size: 1.3em;
+	}
+
+	.main-three-box{
+		margin-top: 10px;
+
+	}
+
+	.main-three-box #nome{
+		font-size: 1.1em;
+	}
+
+	.main-three-box #email{
+		font-size: 1.1em;
+	}
+
+	.button{
+		font-size: 1.2em;
+	}
+
+	.main-two{
+		margin-top: -30px;
+	}
+}
+
+@media (max-width: 860px){
+	.main-two{
+		margin-top: -40px;
+	}
+
+	.header-logo img{
+		width: 100px;
+	}
+
+	.main-one-logo-img1 img, .main-two-logo-img1 img, .main-three-logo-img1 img{
+		width: 200px;
+		margin-left: 20%;
+	}
+
+	.main-one-logo-img2 img, .main-two-logo-img2 img, .main-three-logo-img2 img{
+		width: 200px;
+		margin-left: 20%;
+	}
+
+	.main-one-logo, .main-two-logo{
+		margin-bottom: 30px;
+		margin-top: 30px;
+	}
+
+	.main-three-box h2{
+		font-size: 1.3em;
+	}
+
+	.main-three-box strong{
+		font-size: 1em;
+		margin-left: 90px;
+	}
+	.main-three-box #nome{
+		width: 60%;
+
+	}
+	.main-three-box #email{
+		width: 60%;
+
+	}
+
+	.button{
+		font-size: 0.8em;
+		width: 40%;
+	}
+
+	.header-nav ul{
+		display: none;
+	}
+	
+	#nav-bar{
+		display: block;
+	}
+}
+
+@media (max-width: 700px){
+	.main-two{
+		margin-top: -50px;
 	}
 }
