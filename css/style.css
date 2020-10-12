@@ -17,11 +17,14 @@ a{
 
 body{
 	font-family: gabriola;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .content{
 	width: 50%;
-	margin-left: 25%;
+	
 }
 
 
@@ -36,8 +39,42 @@ header{
 #nav-bar{
 	margin-right: 50px;
 	display: none;
+	font-size: 20px;
+	cursor: pointer;
 }
 
+#nav-menu{
+	background-color: #fff;
+	position: fixed;
+  	right: 30%;
+  	top: 0;
+  	margin-top: -2.5em;
+  	width: 250px;
+  	padding: 30px 0px;
+  	display: none;
+}
+
+#nav-menu ul{
+	display: block;
+}
+
+#nav-menu ul li{
+	font-size: 14px;
+	list-style-type: none;
+	background-color:  #cd8e0a;
+	padding: 5px 0px;
+	border-radius: 5px;
+	font-weight: bold;
+	width: 50%;
+	text-align: center;
+	margin-left: 25%;
+	margin-top: 50px;
+
+}
+
+#nav-menu ul li a{
+	color: #fff;
+}
 .header-logo{
 	margin-left: 18px;
 
@@ -492,7 +529,7 @@ blockquote p{
 	.header-nav ul{
 		display: none;
 	}
-	
+
 	#nav-bar{
 		display: block;
 	}
