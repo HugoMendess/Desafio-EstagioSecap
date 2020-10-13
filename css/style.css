@@ -23,7 +23,7 @@ body{
 }
 
 .content{
-	width: 50%;
+	width: 51%;
 	
 }
 
@@ -44,9 +44,9 @@ header{
 }
 
 #nav-menu{
-	background-color: #fff;
+	background-color: #e6d2d1;
 	position: fixed;
-  	right: 30%;
+  	right: 33.5%;
   	top: 0;
   	margin-top: -2.5em;
   	width: 250px;
@@ -70,6 +70,13 @@ header{
 	margin-left: 25%;
 	margin-top: 50px;
 
+}
+
+#nav-menu ul #botao{
+	background-color: #e6d2d1;
+	margin-bottom: -40px;
+	font-size: 25px;
+	right: 0px;
 }
 
 #nav-menu ul li a{
@@ -127,6 +134,8 @@ main{
 	background-color: #c59e97;
 }
 
+/*Main one ------------------------------------------------ */
+
 .main-one{
  	display: flex;
  	justify-content: space-around;
@@ -167,6 +176,9 @@ blockquote p{
 	background-size: contain;
 	height: 90px;
 }
+/*Main one ------------------------------------------------ */
+
+/*Main two ------------------------------------------------ */
 
 .main-two{
 	background-color: #e6d2d1;
@@ -208,9 +220,10 @@ blockquote p{
 	background-size: contain;
 	height: 130px;
 }
+/*Main two ------------------------------------------------ */
 
 
-
+/*Main three ------------------------------------------------ */
 .main-three{
 	background-color:   #d39e98;
 	margin-top: -5px;
@@ -218,6 +231,7 @@ blockquote p{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	margin-bottom: -20px;
 }
 
 
@@ -293,6 +307,119 @@ blockquote p{
 	color: #cc8d0a;
 	transition: 0.3s;
 }
+/*Main three ------------------------------------------------ */
+
+
+/*Main four ------------------------------------------------ */
+
+.barra3{
+	background: url('../img/barra-2.jpg');
+	background-size: contain;
+	height: 130px;
+	transform: scale(-1, -1);
+
+
+}
+.main-four{
+	background-color: #e6d2d1;
+	margin-top: -5px;
+	padding: 50px 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 600px;
+}
+
+.main-four-title h2{
+	font-size: 35px;
+	color: #a26337;
+	font-weight: bold;
+}
+
+.test{
+	position: absolute;
+	z-index: 2;
+	margin-top: 500px;
+	background-color: #cc8d0a;
+	padding: 2px 25px;
+	border-radius: 5px;
+}
+
+.test h3{
+	font-size: 25px;
+	color: #fff;
+	font-weight: bold;
+	font-family: gabriola;
+}
+
+
+.main-four-title{
+	background: #fff;
+	border-radius: 10px;
+	padding: 6px 15px;
+	position: absolute;
+	margin-top: -400px;
+
+
+}
+
+.main-four-cont-img{
+	margin-top: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	z-index: 1
+}
+
+.main-four-cont-img img{
+
+	padding: 10px 20px;
+}
+
+.main-four-cont{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.main-four-cont-img2{
+	position: absolute;
+	z-index: 0;
+}
+
+#img-2{
+	transform: scaleX(-1);
+	margin-left: 180px;
+}
+
+/*Main four ------------------------------------------------ */
+
+/*Rodape -----------------------------------------------------*/
+.rodape{
+	background-color: #c59e97;
+
+}
+
+.rodape-flor{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 20px 0px 0px 0px;
+}
+
+
+.rodape-social{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: -30px;
+	padding: 0px 0px 40px 0px;
+}
+
+.rodape-social img{
+	margin-left: 20px;
+}
 
 /*Media queries* ------------------------------------------------*/
 
@@ -309,6 +436,10 @@ blockquote p{
 	width: 100%;
 
 }
+	.nav-bar{
+		display: none;
+	}
+
 
 }
 
@@ -319,7 +450,12 @@ blockquote p{
 	height: 90px;
 	margin-bottom: -8px;
 	}
-}
+
+	/*.content{
+		width: 62.7%;
+		
+	}
+*/}
 
 @media (max-width: 1172px){
 	.barra1{
@@ -494,9 +630,14 @@ blockquote p{
 		margin-left: 20%;
 	}
 
-	.main-one-logo-img2 img, .main-two-logo-img2 img, .main-three-logo-img2 img{
+	.main-one-logo-img2 img, .main-two-logo-img2 img{
 		width: 200px;
 		margin-left: 20%;
+	}
+
+	.main-three-logo-img2 img{
+		width: 200px;
+
 	}
 
 	.main-one-logo, .main-two-logo{
@@ -535,8 +676,207 @@ blockquote p{
 	}
 }
 
-@media (max-width: 700px){
-	.main-two{
-		margin-top: -50px;
+@media (max-width: 600px){
+	
+	.main-one-logo-img1 img, .main-one-logo-img2 img, .main-three-logo-img1 img, .main-three-logo-img2 img{
+		width: 140px;
 	}
+
+	.main-one-text{
+		font-size: 0.8em;
+		width: 40%;
+		margin-left: 125px;
+		text-align: justify-all;
+	}
+
+	.main-two-text{
+		width: 40%;
+		font-size: 0.8em;
+		text-align: justify-all;
+	}
+
+	.main-two-logo-img1 img, .main-two-logo-img2 img{
+		width: 140px;
+	}
+
+	.main-three-box h2{
+		font-size: 1.1em;
+	}
+
+	.main-three-box strong{
+		font-size: 1em;
+
+
+	}
+
+	.main-three-box #nome{
+		width: 60%;
+	}
+
+	.main-three-box #email{
+		width: 60%;
+	}
+
+	.button{
+		width: 50%;
+		font-size: 0.8em;
+	}
+
+	.content{
+		width: 300%;
+	}
+
+	.barra1{
+		margin-bottom: -51px;
+	}
+
+	
+}
+
+@media (max-width:  450px){
+	
+	.main-one-logo-img1 img, .main-one-logo-img2 img, .main-three-logo-img1 img, .main-three-logo-img2 img{
+		width: 100px;
+	}
+
+	.main-one-text{
+		font-size: 0.8em;
+		width: 30%;
+		margin-left: 75px;
+		text-align: justify-all;
+	}
+
+	.main-two-text{
+		width: 30%;
+		font-size: 0.8em;
+		text-align: justify-all;
+	}
+
+	.main-two-logo-img1 img, .main-two-logo-img2 img{
+		width: 100px;
+	}
+
+	.main-three-box h2{
+		font-size: 1.1em;
+	}
+
+	.main-three-box strong{
+		font-size: 1em;
+
+
+	}
+
+	.main-three-box #nome{
+		width: 50%;
+	}
+
+	.main-three-box #email{
+		width: 50%;
+	}
+
+	.button{
+		width: 50%;
+		font-size: 0.4em;
+	
+	}
+
+	.content{
+		width: 300%;
+	}
+
+	.barra1{
+		margin-bottom: -61px;
+	}
+
+	
+}
+
+@media (max-width:  300px){
+	
+	.main-one-logo-img1 img, .main-one-logo-img2 img, .main-three-logo-img1 img, .main-three-logo-img2 img{
+		width: 75px;
+	}
+
+	.main-one-text{
+		font-size: 0.8em;
+		width: 30%;
+		margin-left: 75px;
+		text-align: justify-all;
+	}
+
+	.main-two-text{
+		width: 30%;
+		font-size: 0.8em;
+		text-align: justify-all;
+	}
+
+	.main-two-logo-img1 img, .main-two-logo-img2 img{
+		width: 75px;
+	}
+
+	.main-three-box h2{
+		font-size: 1.1em;
+	}
+
+	.main-three-box strong{
+		font-size: 0.8em;
+		margin-right: 200px;
+
+
+	}
+
+	.main-three-box #nome{
+		width: 50%;
+	}
+
+	.main-three-box #email{
+		width: 50%;
+	}
+
+	.button{
+		width: 50%;
+		font-size: 0.4em;
+	
+	}
+
+	.content{
+		width: 300%;
+	}
+
+	.barra1{
+		margin-bottom: -61px;
+	}
+
+	
+}
+
+@media (max-width: 1133px){
+	.main-four-cont-img img{
+		width: 150px;
+
+	}
+
+	.main-four-title h2{
+		font-size: 1.2em;
+
+	}
+
+	.main-four-title{
+		margin-top: -500px;
+	}
+
+	.test{
+		font-size: 1.2em;
+
+	}
+
+	.main-four-cont-img2 img{
+		width: 150px;
+	}
+
+	.main-four-cont{
+		margin-top: -150px;
+	}
+
+	
 }
